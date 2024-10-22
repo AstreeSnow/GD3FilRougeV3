@@ -11,16 +11,3 @@ ASixStats::ASixStats()
 
 }
 
-
-// Called every frame
-void ASixStats::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-void ASixStats::InitializeStats(int32 dicenumber)
-{
-
-
-}
-

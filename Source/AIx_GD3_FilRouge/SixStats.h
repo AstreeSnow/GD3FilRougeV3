@@ -14,11 +14,5 @@ class AIX_GD3_FILROUGE_API ASixStats : public AActor
 public:
 	// Sets default values for this actor's properties
 	ASixStats();
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 
-
-
-
-	UFUNCTION(BlueprintCallable)
-	void InitializeStats(int32 dicenumber);
 };

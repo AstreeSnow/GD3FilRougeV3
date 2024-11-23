@@ -1,36 +1,36 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#pragma once
+//#pragma once
 
-#include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
-#include "State.h"
-#include "PlayerFSM.generated.h"
+//#include "CoreMinimal.h"
+//#include "GameFramework/Actor.h"
+//#include "State.h"
+//#include "PlayerFSM.generated.h"
 
-UCLASS()
-class AIX_GD3_FILROUGE_API APlayerFSM : public AActor
+//UCLASS()
+//class AIX_GD3_FILROUGE_API APlayerFSM : public AActor
 {
-	GENERATED_BODY()
+	//GENERATED_BODY()
 	
-public:	
+//public:	
 	// Sets default values for this actor's properties
-	APlayerFSM();
+	//APlayerFSM();
 
-	UPROPERTY()
-	AState* CurrentState;
+	//UPROPERTY()
+	//AState* CurrentState;
 
-protected:
+//protected:
 	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	//virtual void BeginPlay() override;
 
-public:	
+//public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	//virtual void Tick(float DeltaTime) override;
 
 
-	UFUNCTION()
-	void ChangeState(AState newState);
-	UFUNCTION()
-	void Comportement();
+	//UFUNCTION()
+	//void ChangeState(AState newState);
+	//UFUNCTION()
+	//void Comportement();
 
-};
+//};

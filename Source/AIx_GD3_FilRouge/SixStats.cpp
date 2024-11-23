@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "SixStats.h"
+/*/#include "SixStats.h"
 
 // Sets default values
 ASixStats::ASixStats()
